@@ -1,0 +1,79 @@
+body{
+    position: relative;
+   background-image: url("aquaticbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Do Hyeon', sans-serif;
+    object-fit: cover;
+
+    height: 100%;
+    width: 100%;
+
+  }.navbar{
+    background-color: rgb(174, 11, 250);
+  }
+.navbar-nav{
+
+  text-align: center;
+  background-color: rgb(49, 2, 31);
+  width: 100%;
+}
+
+
+ .nav-item{
+  padding-left: 10%;
+
+
+}/*
+.nav-link{
+  width: 100%;
+  background-color: blueviolet;
+} */
+
+.image{
+ 
+    height: 150px;
+    height: 150px;
+}
+
+    .center {
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 30%;
+      }
+      .image:active {
+        border-radius: 5%;
+       border-top:2px solid rgb(2, 159, 231);
+       border-left:4px solid rgb(5, 113, 236);
+       border-bottom:2px solid rgb(5, 223, 252);
+       border-right:4px solid rgb(5, 220, 248);
+       box-shadow:2px 0 3px rgba(10, 212, 226, 0.1) inset,-5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
+       background:linear-gradient(to bottom,rgb(9, 119, 221) 0%,#059db8 100%)
+
+     }
+     .center.active{
+      -moz-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+    
+      -webkit-transition: transform 1.05s ease-in-out;
+      transition: transform 1.05s ease-in-out;
+      -moz-transition:transform 1.05s ease-in-out;
+      -ms-transition:transform 1.05s ease-in-out;
+    
+    
+      border-top:4px solid rgb(6, 41, 240);
+      border-left:4px solid rgb(6, 82, 247);
+      border-bottom:4px solid rgb(5, 164, 238);
+      border-right:4px solid rgb(5, 134, 240);
+      box-shadow:2px 0 3px rgba(12, 228, 217, 0.1) inset,-5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
+      background:linear-gradient(to bottom,rgb(17, 139, 238) 0%rgb(11, 82, 235)4 100%) 
+    
+    
+    } 

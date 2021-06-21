@@ -1,0 +1,74 @@
+body{
+  position: relative;
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: #1be647;
+
+
+}
+.container{
+  background-image: url("animalbg.jpg");
+}
+
+.navbar{
+  background-color: rgb(174, 11, 250);
+}
+.navbar-nav{
+text-align: center;
+background-color: rgb(49, 2, 31);
+width: 100%;
+}
+.nav-item{
+padding-left: 10%;
+
+
+}
+
+
+
+
+.image{
+  height: 150px;
+  height: 150px;
+}
+
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      height: 30%;
+    }
+    .image:active {
+      border-radius: 5%;
+     border-top:2px solid rgb(179, 19, 179);
+     border-left:4px solid rgb(236, 102, 12);
+     border-bottom:2px solid rgb(202, 235, 18);
+     border-right:4px solid rgba(212, 81, 5, 0.171);
+     box-shadow:2px 0 3px rgba(21, 232, 247, 0.897) inset,-5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
+     background:linear-gradient(to bottom,rgb(226, 223, 8) 0%,#1be647 100%)
+     
+   }
+   
+   .center.active{
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  
+    -webkit-transition: transform 1.05s ease-in-out;
+    transition: transform 1.05s ease-in-out;
+    -moz-transition:transform 1.05s ease-in-out;
+    -ms-transition:transform 1.05s ease-in-out;
+  
+  
+    border-top:4px solid rgb(100, 238, 9);
+    border-left:4px solid rgb(19, 196, 58);
+    border-bottom:4px solid rgb(3, 112, 30);
+    border-right:4px solid rgb(91, 231, 126);
+    box-shadow:2px 0 3px rgba(0,0,0,0.1) inset,-5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
+    background:linear-gradient(to bottom,rgb(6, 253, 191) 0%,#03fa24 100%) 
+  
+  
+  } 

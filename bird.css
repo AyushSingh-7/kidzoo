@@ -1,0 +1,78 @@
+
+
+body {
+  position: relative;
+  font-family: 'Do Hyeon', sans-serif;
+  /* background-image: url();
+  background-size: ; */
+  background-color: aqua;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.navbar{
+  background-color: rgb(174, 11, 250);
+    font-family: 'Do Hyeon', sans-serif;
+}
+.navbar-nav{
+text-align: center;
+background-color: rgb(49, 2, 31);
+width: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.nav-item{
+padding-left: 10%;
+  font-family: 'Do Hyeon', sans-serif;
+
+}
+
+
+
+.image{
+    height: 150px;
+
+}
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 30%;
+      }
+       .image:active {
+       border-radius: 5%;
+        border-top:2px solid rgb(100, 238, 9);
+        border-left:2px solid rgb(19, 196, 58);
+        border-bottom:2px solid rgb(3, 112, 30);
+        border-right:4px solid rgb(91, 231, 126);
+        box-shadow:2px 0 3px rgba(0,0,0,0.1) inset,-5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
+        background:linear-gradient(to bottom,rgb(6, 253, 191) 0%,#03fa24 100%) 
+      
+
+      } 
+.center.active{
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+
+  -webkit-transition: transform 1.05s ease-in-out;
+  transition: transform 1.05s ease-in-out;
+  -moz-transition:transform 1.05s ease-in-out;
+  -ms-transition:transform 1.05s ease-in-out;
+
+
+  border-top:4px solid rgb(201, 209, 196);
+  border-left:4px solid rgb(155, 167, 158);
+  border-bottom:4px solid rgb(173, 185, 176);
+  border-right:4px solid rgb(177, 190, 180);
+  box-shadow:2px 0 3px rgba(138, 114, 114, 0.1) inset,-5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
+  background:linear-gradient(to bottom,rgb(163, 180, 176) 0%,#839686 100%) 
+
+
+} 
