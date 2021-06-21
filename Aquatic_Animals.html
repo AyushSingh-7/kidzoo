@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>aquatic</title>
+  <link rel="stylesheet" href="css/aquaticanimal.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body style="background-image: url(aquaticbg.jpg);background-size: cover;">
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Land_Animals.html">ANIMALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Aquatic_Animals.html">AQUATIC ANIMALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Birds.html">BIRDS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Guess_who.html">GUESS THE ANIMALS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="container">
+    <div class="demo2">
+
+      <img id="demo" src="images/dolphin.jpg" class="center"></img>
+
+    </div>
+
+    <br>
+
+
+
+
+
+
+    <div class="hye">
+
+
+
+
+      <div class="owl-carousel owl-theme">
+        <div class="item"><img class="image " src="images/dolphin.jpg" data-note="dolphin"></div>
+        <div class="item"><img class="image" src="images/frog.jpg" data-note="frog"></div>
+        <div class="item"><img class="image " src="images/crab.jpg" data-note="crab"></div>
+        <div class="item"><img class="image " src="images/croc.jpg" data-note="croc"></div>
+        <div class="item"><img class="image " src="images/turtle.jpg" data-note="turtle"></div>
+        <div class="item"><img class="image " src="images/penguin.jpg" data-note="penguin"></div>
+        <div class="item"><img class="image " src="images/seal.jpg" data-note="seal"></div>
+        <div class="item"><img class="image " src="images/whale.jpg" data-note="whale"></div>
+      </div>
+
+      <audio src="sounds/dolphin.mp3" id="dolphin"></audio>
+      <audio src="sounds/frog.mp3" id="frog"></audio>
+      <audio src="sounds/crab.mp3" id="crab"></audio>
+      <audio src="sounds/croc.mp3" id="croc"></audio>
+      <audio src="sounds/turtle.mp3" id="turtle"></audio>
+      <audio src="sounds/penguin.mp3" id="penguin"></audio>
+      <audio src="sounds/seal.mp3" id="seal"></audio>
+      <audio src="sounds/whale.mp3" id="whale"></audio>
+  
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    </script>
+  <script type="text/javascript">
+
+
+
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+
+      loop: true,
+      nav: true,
+      margin: 10,
+      dots: false,
+
+      innerHeight: 10,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        960: {
+          items: 5
+        },
+        1200: {
+          items: 6
+        }
+      }
+    });
+
+
+
+
+    owl.on('mousewheel', '.owl-stage', function (e) {
+      if (e.deltaY > 0) {
+        owl.trigger('next.owl');
+      } else {
+        owl.trigger('prev.owl');
+      }
+      e.preventDefault();
+    });
+
+
+
+
+
+    const keys = document.querySelectorAll('.image');
+    const cen = document.querySelector('#demo');
+
+    
+
+
+
+
+
+
+
+
+
+    keys.forEach(key => {
+
+      key.addEventListener('click', () => playNote(key))
+    })
+
+
+
+
+
+    let playNote = (key) => {
+
+      const noteSound = document.getElementById(key.dataset.note)
+      var x = key.src
+
+      var filename = x.substring(x.lastIndexOf('/') + 1)
+
+      const str1 = 'images/' + filename
+
+
+      document.images.namedItem("demo").setAttribute("src", str1)
+      
+
+
+
+      // noteSound.stop()
+      noteSound.currentTime = 0
+
+
+      setTimeout(function(){
+        cen.classList.add('active')
+    noteSound.play();
+
+    setTimeout(function(){
+        noteSound.pause();
+        noteSound.currentTime = 0;
+        cen.classList.remove('active')
+       
+    }, 3000);
+}, 1000);
+
+
+
+
+
+
+
+
+
+
+      key.classList.add('active')
+
+
+      
+      noteSound.addEventListener('ended', () => {
+        key.classList.remove('active')
+   
+        
+      })
+    }
+
+
+
+
+
+
+  </script>
+
+</body>
+
+</html>
